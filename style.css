@@ -1,0 +1,176 @@
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: red;
+  font-size: 20px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.tarjetas div {
+  background-color: green;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+}
+
+.tarjetas div img {
+  width: 200px;
+  height: 200px;
+}
+
+.destacados {
+  background-color: rgb(220, 158, 78);
+}
+
+.destacados h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.comprar {
+  background-color: red;
+  padding: 20px;
+}
+
+.cont-caja {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont-caja div img {
+  height: 200px;
+  width: 200px;
+}
+
+.formularios {
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    font-size: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .tarjetas {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .tarjetas div {
+    margin: 10px;
+  }
+  .cont-caja {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+footer {
+  background-color: darkturquoise;
+  padding: 10px;
+  color: black;
+}
+
+.redes a img {
+  width: 50px;
+  height: 50px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-1 {
+  background-color: rgb(241, 10, 10);
+  font-size: large;
+  padding: 10px;
+}
+
+.btn-2 {
+  background-color: blueviolet;
+  font-size: medium;
+  padding: 10px;
+}
+
+.btn-3 {
+  background-color: blue;
+  font-size: small;
+  padding: 10px;
+}
+
+.tarj-roja {
+  box-shadow: 0px 10px 20px red;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: greenyellow;
+}
+
+.tarj-azul {
+  box-shadow: 0px 10px 20px blue;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: greenyellow;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.redes {
+  animation: mover 2s infinite;
+}
+
+/*# sourceMappingURL=style.css.map */
