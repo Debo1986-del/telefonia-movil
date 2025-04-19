@@ -2,6 +2,7 @@
 @use 'main';
 @use 'footer';
 @use 'mixin';
+@use 'nosotros';
 
 $color-primary: rgb(76, 104, 241);
 $color-secundary:white;
@@ -13,7 +14,4 @@ $color-secundary:white;
     0% { transform: translateX(0); }
     50%{transform: translateX(100px);}
     100%{transform: translateX(0);}
-}
-.redes {
-    animation: mover 2s infinite;
 }

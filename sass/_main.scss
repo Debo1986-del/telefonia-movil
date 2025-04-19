@@ -1,0 +1,55 @@
+// --------------HERO------------//
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+// ----DESTACADOS----//
+.destacados {
+    background-color: rgb(220, 158, 78);
+}
+.destacados h2{
+    padding: 10px;
+    text-align: center;
+}
+//-----TARJETAS-----//
+.cont-tar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.tarj {
+    background-color: green;
+    border-radius: 2px;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+.tarj img {
+    width: 190px ;
+    height: 200px;
+}
+.tarj p {
+    background-color: aqua;
+}
+
+//--------MEDIA QUARY----------//
+@media ( max-width: 900px) {
+    .hero{
+        flex-direction: column-reverse;
+        font-size: 15px;
+    }
+}
+@media ( max-width: 800px) {
+    .cont-tar{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .tarj {
+        margin: 10px;
+    }
+}

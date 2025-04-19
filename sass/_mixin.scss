@@ -1,0 +1,28 @@
+@mixin boton($color, $size) {
+    background-color: $color;
+    font-size: $size;
+    padding: 5px;
+}
+.btn-1{
+    @include boton(rgb(241, 10, 10), large )
+}
+// .btn-2{
+//     @include boton(blueviolet, large )
+// }
+// .btn-3{
+//     @include boton( blue, large)
+// }
+
+// @mixin tarj-c ($color-som, $borde) {
+//     box-shadow: 10px 10px 20px rgba($color-som, 02);
+//     border-radius: $borde;
+//     padding: 20px;
+//     background-color: rgb(255, 0, 179);
+// }
+
+// .tarj-roja {
+//     @include tarj-c (red, 20px )
+// }
+// .tarj-azul {
+//     @include tarj-c(blue, 20px )
+// }

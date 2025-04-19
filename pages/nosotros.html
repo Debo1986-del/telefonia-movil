@@ -3,36 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="telefonía móvil, somos una empresa con una trayectoria de 20 años en el mercado">
-    <title>Telefonia Móvi</title>
-    
-    <link rel="stylesheet" href="../style.css">
-    
+    <meta name="keywords" content="telefonía móvil, contactanos a través de nuestras redes sociales">
+    <title>Telefonía Móvil</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Telefonía Móvil </h1>
-        <img src="../img/telefonia-digital.png" class="inalambrica" alt="inalambrica">
-        <nav>
-            <ul>
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="./contactos.html">contactos</a></li>
-                <li><a href="#">nosotros</a></li>
-                <li><a href="./pack-digital.html">packdigital</a></li>
-                <li><a href="./servicios.html">servicios</a></li>
-            </ul>
+        <h1>Telefonía Móvil</h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Barra de navegacion</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                        <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./contactos.html">Contactos</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    
-    <footer class="seguinos en nuestras redes">
-        <h2 class="lead text-center">Seguinos en nuestras redes</h2>
-        
+    <main>
+        <section class="grd-sec">
+            <p>Somos una compañia con una trayectoria de mas de 20 años en el mercado digital, nos encontramos ubicados en Don Torcuato, Zona Norte.<br>
+            Acercate y conoce nuestro local, y la amplia variedad que tenemos en productos digitales. Vas a ser atendido y asesorado con personal altamente calificado. Visitanos en nuestra tienda, o ingresa en nuestras redes sociales y conoce mas acerca de nuestro producto</p>
+            <div class="grid-cnt">
+                <div class="grd-a">
+                    <img src="../img/img-acesoramiento.jpg" alt="">
+                </div>
+                <div class="grd-b">
+                    <img src="../img/img-acesoramiento2.jpg" alt="">
+                </div>
+                <div class="grd-c">
+                    <img src="../img/tienda-movil.jpg" alt="Nuestra sucursal zona Norte">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="redes">
+        <h2>Seguinos en nuestras redes</h2>
         <a href="https://www.instagram.com" target="_blank">
-            <img src="../img/instagram.png" alt="instagram"> </a>
+            <img src="../img/instagram.png" alt="instagram" >
+        </a>
         <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
-            <img src="../img/facebook.png" alt="facebook"> </a>
-        <a href="https://twitter.com/?lang=es" target="_blank">
-            <img src="../img/signo-de-twitter.png" alt="twitter"> </a>
+            <img src="../img/facebook.png" alt="facebook">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src= "../img/signo-de-twitter.png" alt="twitter">
+        </a>
     </footer>
 </body>
 </html>

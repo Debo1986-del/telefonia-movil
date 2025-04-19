@@ -39,24 +39,6 @@ a {
   text-align: center;
 }
 
-.tarjetas {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.tarjetas div {
-  background-color: green;
-  padding: 20px;
-  width: 200px;
-  height: 300px;
-}
-
-.tarjetas div img {
-  width: 200px;
-  height: 200px;
-}
-
 .destacados {
   background-color: rgb(220, 158, 78);
 }
@@ -66,24 +48,28 @@ a {
   text-align: center;
 }
 
-.comprar {
-  background-color: red;
-  padding: 20px;
-}
-
-.cont-caja {
+.cont-tar {
   display: flex;
-  justify-content: space-between;
-}
-
-.cont-caja div img {
-  height: 200px;
-  width: 200px;
-}
-
-.formularios {
+  justify-content: space-around;
   padding: 10px;
-  background-color: aquamarine;
+}
+
+.tarj {
+  background-color: green;
+  border-radius: 2px;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+}
+
+.tarj img {
+  width: 190px;
+  height: 200px;
+}
+
+.tarj p {
+  background-color: aqua;
 }
 
 @media (max-width: 900px) {
@@ -93,16 +79,12 @@ a {
   }
 }
 @media (max-width: 800px) {
-  .tarjetas {
+  .cont-tar {
     flex-direction: column-reverse;
     align-items: center;
   }
-  .tarjetas div {
+  .tarj {
     margin: 10px;
-  }
-  .cont-caja {
-    flex-direction: column-reverse;
-    align-items: center;
   }
 }
 footer {
@@ -124,33 +106,47 @@ footer {
 .btn-1 {
   background-color: rgb(241, 10, 10);
   font-size: large;
-  padding: 10px;
+  padding: 5px;
 }
 
-.btn-2 {
-  background-color: blueviolet;
-  font-size: medium;
-  padding: 10px;
+.grd-sec {
+  background-color: rgb(1, 56, 56);
+  padding-top: 20px;
 }
 
-.btn-3 {
+.grd-sec p {
   background-color: blue;
-  font-size: small;
-  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
-.tarj-roja {
-  box-shadow: 0px 10px 20px red;
-  border-radius: 10px;
+.grid-cnt {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 45%);
+  grid-template-areas: " a b c " " a b c ";
+  column-gap: 10px;
   padding: 20px;
-  background-color: greenyellow;
 }
 
-.tarj-azul {
-  box-shadow: 0px 10px 20px blue;
-  border-radius: 20px;
-  padding: 20px;
-  background-color: greenyellow;
+.grd-a {
+  grid-area: a;
+}
+
+.grd-b {
+  grid-area: b;
+}
+
+.grd-c {
+  grid-area: c;
+}
+
+.grid-cnt img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 
 * {
@@ -168,9 +164,6 @@ footer {
   100% {
     transform: translateX(0);
   }
-}
-.redes {
-  animation: mover 2s infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
