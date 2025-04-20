@@ -1,5 +1,6 @@
 header {
-  background-color: aqua;
+  background-color: rgb(5, 14, 143);
+  color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -48,14 +49,14 @@ h1 {
 .hero {
   display: flex;
   justify-content: space-between;
-  background-color: burlywood;
+  background-color: rgb(247, 244, 241);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 
 .destacados {
-  background-color: rgb(220, 158, 78);
+  background-color: rgb(158, 201, 250);
 }
 
 .destacados h2 {
@@ -70,7 +71,7 @@ h1 {
 }
 
 .tarj {
-  background-color: green;
+  background-color: rgb(235, 243, 235);
   border-radius: 2px;
   padding: 10px;
   width: 250px;
@@ -84,7 +85,7 @@ h1 {
 }
 
 .tarj p {
-  background-color: aqua;
+  background-color: rgb(189, 248, 248);
 }
 
 @media (max-width: 900px) {
@@ -103,14 +104,15 @@ h1 {
   }
 }
 footer {
-  background-color: darkturquoise;
+  background-color: rgb(5, 14, 143);
   padding: 10px;
-  color: black;
+  color: white;
 }
 
 .redes a img {
   width: 50px;
   height: 50px;
+  background-color: white;
 }
 
 .redes {
@@ -119,28 +121,31 @@ footer {
 }
 
 .btn-1 {
-  background-color: rgb(241, 10, 10);
+  background-color: rgb(8, 8, 8);
   font-size: large;
   padding: 5px;
+  color: white;
 }
 
 .bord-r {
-  box-shadow: 10px 10px 20px black;
+  box-shadow: 10px 10px 20px #2d10cf;
   border-radius: 20px;
+  color: rgb(63, 15, 235);
 }
 
 .bord-b {
-  box-shadow: 10px 10px 20px white;
+  box-shadow: 10px 10px 20px #2d10cf;
   border-radius: 20px;
+  color: rgb(63, 15, 235);
 }
 
 .grd-sec {
-  background-color: rgb(1, 56, 56);
+  background-color: rgb(3, 3, 3);
   padding-top: 20px;
 }
 
 .grd-sec p {
-  background-color: blue;
+  background-color: rgb(218, 218, 240);
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
@@ -175,7 +180,7 @@ footer {
 }
 
 .sec-ser {
-  background-color: chartreuse;
+  background-color: rgb(206, 217, 238);
   padding: 20px;
 }
 
@@ -183,7 +188,7 @@ footer {
   display: flex;
   gap: 30px;
   justify-content: space-around;
-  background-color: brown;
+  background-color: rgb(179, 176, 176);
   padding: 20px;
   align-items: center;
 }
@@ -191,12 +196,14 @@ footer {
 .parrafo-ser {
   text-align: center;
   width: 600px;
-  background-color: azure;
+  background-color: rgb(176, 193, 247);
 }
 
 .cont-p button {
   height: 30px;
   width: 100px;
+  background-color: black;
+  color: white;
 }
 
 .cont-img-ser {
@@ -213,6 +220,25 @@ footer {
 .cnt-ser-tec img {
   height: 100%;
   width: 100%;
+}
+
+.prod {
+  background-color: rgb(208, 245, 245);
+}
+
+.sec-cont {
+  padding: 20px;
+  background-color: white;
+}
+
+.for-caja {
+  border-radius: 10px;
+  border-color: aqua;
+  height: auto;
+  width: auto;
+  background-color: rgb(199, 194, 194);
+  padding-bottom: 10px;
+  color: antiquewhite;
 }
 
 * {

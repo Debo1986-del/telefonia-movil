@@ -2,18 +2,20 @@
     background-color: $color;
     font-size: $size;
     padding: 5px;
+    color: white;
 }
 .btn-1{
-    @include boton(rgb(241, 10, 10), large )
+    @include boton(rgb(8, 8, 8), large )
 }
 @mixin bord-r ($color-som, $borde) {
     box-shadow: 10px 10px 20px rgba($color-som, 02);
     border-radius: $borde;
+    color: rgb(63, 15, 235);
 }
 
 .bord-r {
-    @include bord-r (black, 20px )
+    @include bord-r (rgb(45, 16, 207), 20px )
 }
 .bord-b {
-    @include bord-r(white,20px )
+    @include bord-r (rgb(45, 16, 207), 20px )
 }

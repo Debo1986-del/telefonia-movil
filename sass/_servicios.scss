@@ -1,23 +1,25 @@
 .sec-ser {
-    background-color: chartreuse;
+    background-color: rgb(206, 217, 238);
     padding: 20px;
 }
 .cont-p {
     display: flex;
     gap: 30px;
     justify-content: space-around;
-    background-color: brown;
+    background-color: rgb(179, 176, 176);
     padding: 20px;
     align-items: center;
 }
 .parrafo-ser {
     text-align: center;
     width: 600px;
-    background-color: azure;
+    background-color: rgb(176, 193, 247);
 }
 .cont-p button {
     height: 30px;
     width: 100px;
+    background-color: black;
+    color: white;
 }
 .cont-img-ser {
     display: flex;

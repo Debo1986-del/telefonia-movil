@@ -2,14 +2,14 @@
 .hero {
     display: flex;
     justify-content: space-between;
-    background-color: burlywood;
+    background-color: rgb(247, 244, 241);
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
 // ----DESTACADOS----//
 .destacados {
-    background-color: rgb(220, 158, 78);
+    background-color: rgb(158, 201, 250);
 }
 .destacados h2{
     padding: 10px;
@@ -22,7 +22,7 @@
     padding: 10px;
 }
 .tarj {
-    background-color: green;
+    background-color: rgb(235, 243, 235);
     border-radius: 2px;
     padding: 10px;
     width: 250px;
@@ -34,7 +34,7 @@
     height: 200px;
 }
 .tarj p {
-    background-color: aqua;
+    background-color: rgb(189, 248, 248);
 }
 
 //--------MEDIA QUARY----------//
