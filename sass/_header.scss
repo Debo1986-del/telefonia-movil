@@ -21,6 +21,19 @@ nav a:hover{
 a{
     text-decoration: none;
 }
+h1{
+    animation: deslizar 2s ease-in-out infinite alternate;
+    color: #39ff14; 
+    text-shadow: 0 0 5px #d9e4d7, 0 0 10px #d9e4d7,0 0 20px #d9e4d7;
+    animation: brillo 1.5s ease-in-out ;
+}
+@keyframes brillo {
+    from {
+        transform:  translateX(0);
+    }
+    to { transform: translateX(20px);
+    }
+}
 
 @media ( max-width: 900px) {
     header{

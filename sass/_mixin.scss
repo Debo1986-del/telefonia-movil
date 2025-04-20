@@ -6,23 +6,14 @@
 .btn-1{
     @include boton(rgb(241, 10, 10), large )
 }
-// .btn-2{
-//     @include boton(blueviolet, large )
-// }
-// .btn-3{
-//     @include boton( blue, large)
-// }
+@mixin bord-r ($color-som, $borde) {
+    box-shadow: 10px 10px 20px rgba($color-som, 02);
+    border-radius: $borde;
+}
 
-// @mixin tarj-c ($color-som, $borde) {
-//     box-shadow: 10px 10px 20px rgba($color-som, 02);
-//     border-radius: $borde;
-//     padding: 20px;
-//     background-color: rgb(255, 0, 179);
-// }
-
-// .tarj-roja {
-//     @include tarj-c (red, 20px )
-// }
-// .tarj-azul {
-//     @include tarj-c(blue, 20px )
-// }
+.bord-r {
+    @include bord-r (black, 20px )
+}
+.bord-b {
+    @include bord-r(white,20px )
+}

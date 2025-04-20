@@ -25,6 +25,21 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  animation: deslizar 2s ease-in-out infinite alternate;
+  color: #39ff14;
+  text-shadow: 0 0 5px #d9e4d7, 0 0 10px #d9e4d7, 0 0 20px #d9e4d7;
+  animation: brillo 1.5s ease-in-out;
+}
+
+@keyframes brillo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
 @media (max-width: 900px) {
   header {
     flex-direction: column;
@@ -107,6 +122,16 @@ footer {
   background-color: rgb(241, 10, 10);
   font-size: large;
   padding: 5px;
+}
+
+.bord-r {
+  box-shadow: 10px 10px 20px black;
+  border-radius: 20px;
+}
+
+.bord-b {
+  box-shadow: 10px 10px 20px white;
+  border-radius: 20px;
 }
 
 .grd-sec {
