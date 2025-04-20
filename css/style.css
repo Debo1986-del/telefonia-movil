@@ -149,6 +149,47 @@ footer {
   object-fit: fill;
 }
 
+.sec-ser {
+  background-color: chartreuse;
+  padding: 20px;
+}
+
+.cont-p {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  background-color: brown;
+  padding: 20px;
+  align-items: center;
+}
+
+.parrafo-ser {
+  text-align: center;
+  width: 600px;
+  background-color: azure;
+}
+
+.cont-p button {
+  height: 30px;
+  width: 100px;
+}
+
+.cont-img-ser {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cnt-ser-tec {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+
+.cnt-ser-tec img {
+  height: 100%;
+  width: 100%;
+}
+
 * {
   margin: 0px;
   padding: 0px;

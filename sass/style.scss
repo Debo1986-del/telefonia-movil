@@ -3,7 +3,8 @@
 @use 'footer';
 @use 'mixin';
 @use 'nosotros';
-
+@use 'servicios';
+@use 'productos';
 $color-primary: rgb(76, 104, 241);
 $color-secundary:white;
 *{
